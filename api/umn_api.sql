@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 13, 2022 at 05:08 AM
+-- Generation Time: Apr 15, 2022 at 12:44 PM
 -- Server version: 10.4.17-MariaDB
--- PHP Version: 7.4.14
+-- PHP Version: 7.4.15
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -43,7 +43,8 @@ INSERT INTO `memories` (`id`, `title`, `type`, `photo`) VALUES
 (9, 'Monochrome', 'good', 'uploads/1636368429207.jpeg'),
 (10, 'Kakek', 'bad', 'uploads/1636369005979.jpeg'),
 (11, 'Dark Side', 'bad', 'uploads/1636369039431.jpeg'),
-(12, 'Power ', 'bad', 'uploads/1649808230676.jpeg');
+(12, 'Power ', 'bad', 'uploads/1649808230676.jpeg'),
+(14, 'ITIX', 'bad', 'uploads/1650017412464.jpeg');
 
 -- --------------------------------------------------------
 
@@ -71,7 +72,9 @@ INSERT INTO `students` (`nim`, `nama`, `prodi`, `foto`) VALUES
 ('009', 'Gemini', 'Gemini', 'uploads/kucing.jpg'),
 ('010', 'Kakek Kura-kura', 'Kakek Kura-kura', 'uploads/8049.jpg'),
 ('011', 'Sexy Lips', 'Love Dovey', 'uploads/monochrome.jpg'),
-('012', 'Yosha', '', 'uploads/wil.jpg');
+('012', 'Yosha', '', 'uploads/wil.jpg'),
+('asd', 'asd', 'asd@asd.asd', 'uploads/Screenshot (1).png'),
+('ITIX', 'ITIX', 'ITIX@ITIX.ITIX', 'uploads/ITIX.png');
 
 --
 -- Indexes for dumped tables
@@ -97,7 +100,7 @@ ALTER TABLE `students`
 -- AUTO_INCREMENT for table `memories`
 --
 ALTER TABLE `memories`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
